@@ -1,0 +1,8 @@
+{
+    "name": "nielsvandendries/lothbrok-theme",
+    "type": "october-theme",
+    "description": "Lothbrok is a Foundation design Theme, custom build by NvandenDries.nl",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
