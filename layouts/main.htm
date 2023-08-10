@@ -8,14 +8,16 @@
     <title>Foundation for Sites</title>
     <link rel="stylesheet" href="{{ 'assets/css/foundation.css'|theme }}">
     <link rel="stylesheet" href="{{ 'assets/css/app.css'|theme }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
   </head>
 <body>
     <!-- Topbar -->
     {% partial "topbar" %}
     
     <!-- Content -->
-    {% page %}
-    
+    <div class="container">
+      {% page %}
+    </div>
     <!-- JavaScripts -->
     <script src="{{ 'assets/js/vendor/jquery.js'|theme }}"></script>
     <script src="{{ 'assets/js/vendor/what-input.js'|theme }}"></script>
